@@ -41,7 +41,7 @@
   <h3 align="center">YOUR_TITLE</h3>
 
   <p align="center">
-    YOUR_SHORT_DESCRIPTION
+    A modular discord bot for WCU students
     <br />
     <a href="https://github.com/github_username/repo"><strong>Explore the docs »</strong></a>
     <br />
@@ -164,15 +164,14 @@ Project Link: [https://github.com/aidankirk617/CataBot#built-with](https://githu
 
 
 <!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
+## Future Implementations
 
-* []()
-* []()
-* []()
+* [Weekly menu items for cafeteria]()
+* [Hours of operation]()
+* [Events on campus]()
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [product-screenshot]: images/logo2.jpg
