@@ -35,7 +35,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo">
-    <img src="images/logo1.jpg" alt="Logo" width="80" height="80">
+    <img src="images/logo1.jpg" alt="Logo" width="400" height="400">
   </a>
 
   <h3 align="center">YOUR_TITLE</h3>
@@ -83,9 +83,6 @@ Catabot is a modular discord bot created to help WCU students navigate their day
 New student or old student, it gets very hectic trying to keep up with campus events, hours of operation, or even what’s for dinner tonight in the cafeteria. Through a simple question command, members of the WCU Computer Science discord can ask Catabot any of these questions and get an immediate response. No more internet searches, no more looking through the notes section of your phone, and thankfully no more asking strangers on the street for help. That’s called social interaction, and as Computer Science majors, we don’t support it.
 
 Catabot also serves as an open source group project between Computer Science students, utilizing the agile development lifecycle, as well as SCRUM. This creates not only an efficient and objective oriented work environment, but provides students of WCU the experience of working on a development team before graduation, or even engaging in possible internships. This not only strengthens our Computer Science education, but also makes way to ease WCU students into the workforce.
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo`, `twitter_handle`, `email`
-
 
 ### Built With
 
@@ -153,7 +150,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the ____ License. See `LICENSE` for more information.
 
 
 
@@ -162,7 +159,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
 
-Project Link: [https://github.com/github_username/repo](https://github.com/github_username/repo)
+Project Link: [https://github.com/aidankirk617/CataBot#built-with](https://github.com/aidankirk617/CataBot#built-with)
 
 
 
@@ -174,21 +171,8 @@ Project Link: [https://github.com/github_username/repo](https://github.com/githu
 * []()
 
 
-
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/logo2.jpg
