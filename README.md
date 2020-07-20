@@ -166,9 +166,9 @@ Project Link: [https://github.com/aidankirk617/CataBot#built-with](https://githu
 <!-- ACKNOWLEDGEMENTS -->
 ## Future Implementations
 
-* [Weekly menu items for cafeteria]()
-* [Hours of operation]()
-* [Events on campus]()
+* [Weekly menu items for cafeteria](https://www.youtube.com/watch?v=C1AauAyQ_wg)
+* [Hours of operation](https://www.youtube.com/watch?v=C1AauAyQ_wg)
+* [Events on campus](https://www.youtube.com/watch?v=C1AauAyQ_wg)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->

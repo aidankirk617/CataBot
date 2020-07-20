@@ -5,7 +5,6 @@ import asyncio
 import datetime
 import sys
 import time
-import info
 
 from dotenv import load_dotenv
 from discord.ext import commands
@@ -13,24 +12,19 @@ from discord.utils import get
 
 
 load_dotenv()
-TOKEN = info.TOK
 GUILD = os.getenv('DISCORD_GUILD')
 
-bot = commands.Bot(command_prefix='&')
-client = discord.Client()
+client = commands.Bot(command_prefix='&')
 
-dictionary = wl.build_dictionary()
-
-
-# Log on message for the bot
-@bot.event
+# Log on message for the client
+@client.event
 async def on_ready():
-    for guild in bot.guilds:
+    for guild in client.guilds:
         if guild.name == GUILD:
             break
 
     print(
-        f'{bot.user} is connected to the following guild:\n'
+        f'{client.user} is connected to the following guild:\n'
         f'{guild.name}(id: {guild.id})'
     )
 
@@ -38,7 +32,7 @@ async def on_ready():
 
 
 # Writes errors to file
-@bot.event
+@client.event
 async def on_error(event, *args, **kwargs):
     with open('err.log', 'a') as f:
         if event == 'on_message':
@@ -46,16 +40,8 @@ async def on_error(event, *args, **kwargs):
         else:
             raise
 
-
-# info command
-@bot.command(name='info')
-async def info(ctx):
-    info_message = 'Hi kid. My name\'s Bill. Bill Cipher. I help out around here\nMy prefix is `&` and I can do things like spam quotes and make fun of you.\nMaybe one day I\'ll be useful. But not today!'
-    await ctx.send(info_message)
-
-
 # Quote command
-@bot.command(name='quote', help='Responds with a random Gravity Falls quote')
+@client.command(name='quote', help='Responds with a random Gravity Falls quote')
 async def quote(ctx):
 
     gravity_falls_quotes = [
@@ -74,7 +60,7 @@ async def quote(ctx):
 
 
 # Rolls dice
-@bot.command()
+@client.command()
 async def roll(ctx, num_dice: int, num_sides: int):
     dice = [
         str(random.choice(range(1, num_sides + 1)))
@@ -87,26 +73,26 @@ async def roll(ctx, num_dice: int, num_sides: int):
 
 
 # ping command
-@bot.command()
+@client.command()
 async def ping(ctx):
     '''
     Issues a ping and returns the latency
     '''
 
-    latency = bot.latency
+    latency = client.latency
     await ctx.send("Pong! " + str(latency))
 
 
 # Respond to messages
-@bot.event
+@client.event
 async def on_message(message):
-    if (message.author.bot):
+    if (message.author.client):
         returctxn
-    await bot.process_commands(message)
+    await client.process_commands(message)
     msg = message.content.lower().replace(" ", "")
     username = message.author.name.lower().replace(" ", "")
     if '!stop!' in msg:
-        await bot.logout()
+        await client.logout()
     if 'brown' in msg:
         await message.channel.send('Brown is closed on weekends')
     if 'bill' in msg or 'cipher' in msg:
@@ -124,7 +110,7 @@ async def on_message(message):
 # join the voice channel
 
 
-@bot.command()
+@client.command()
 async def join(ctx, *, channel: discord.VoiceChannel):
     if ctx.voice_client is not None:
         return await ctx.voice_client.move_to(channel)
@@ -133,20 +119,18 @@ async def join(ctx, *, channel: discord.VoiceChannel):
 # leave the voice channel
 
 
-@bot.command()
+@client.command()
 async def leave(ctx):
     server = ctx.message.server
-    voice_client = bot.voice_client_in(server)
+    voice_client = client.voice_client_in(server)
     await voice_client.disconnect()
 
 
 # Send random word
-@bot.command()
+@client.command()
 async def rand(ctx):
     word = random.choice(dictionary)
     await ctx.send(word + "!")
 
 
-bot.loop.create_task(time_check())
-
-bot.run(TOKEN)
+client.run('NzM0NTAyNDczODI5NDQ5Nzg3.XxS37A.uDSPpzSMevd1dvCZRQFL94i7pKI')
