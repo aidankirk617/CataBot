@@ -1,18 +1,28 @@
-<!--
-*** Thanks for checking out this README Template. If you have a suggestion that would
-*** make this better, please fork the repo and create a pull request or simply open
-*** an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
-***
-***
-***
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo, twitter_handle, email
--->
 
 
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+    <!-- <a href="https://github.com/aidankirk617/CataBot"> -->
+    <img src="images/logo1.jpg" alt="Logo" width="400" height="400">
+  </a>
 
+  <h3 align="center">CataBot</h3>
 
+  <p align="center">
+    A modular Discord bot for WCU students
+    <br />
+    <a href="https://github.com/aidankirk617/CataBot"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <!-- Commented out until we have a live demo -->
+    <!--<a href="https://github.com/github_username/repo">View Demo</a> -->
+    ·
+    <a href="https://github.com/aidankirk617/CataBot/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/aidankirk617/CataBot/issues">Request Feature</a>
+  </p>
+</p>
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -22,38 +32,11 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/github_username/repo">
-    <img src="images/logo1.jpg" alt="Logo" width="400" height="400">
-  </a>
-
-  <h3 align="center">YOUR_TITLE</h3>
-
-  <p align="center">
-    A modular discord bot for WCU students
-    <br />
-    <a href="https://github.com/github_username/repo"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo/issues">Request Feature</a>
-  </p>
-</p>
-
+[![Contributors][contributors-shield]][https://github.com/aidankirk617/CataBot/graphs/contributors]
+[![Forks][forks-shield]][https://github.com/aidankirk617/CataBot/network/members]
+[![Stargazers][stars-shield]][https://github.com/aidankirk617/CataBot/stargazers]
+[![Issues][issues-shield]][https://github.com/aidankirk617/CataBot/issues]
+[![MIT License][license-shield]][LICENSE.md] 
 
 
 <!-- TABLE OF CONTENTS -->
@@ -76,13 +59,24 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!--[![Produc Name Screen Shot][product-screenshot]](https://example.com) -->
 
 Catabot is a modular discord bot created to help WCU students navigate their day to day school life with ease.
 
-New student or old student, it gets very hectic trying to keep up with campus events, hours of operation, or even what’s for dinner tonight in the cafeteria. Through a simple question command, members of the WCU Computer Science discord can ask Catabot any of these questions and get an immediate response. No more internet searches, no more looking through the notes section of your phone, and thankfully no more asking strangers on the street for help. That’s called social interaction, and as Computer Science majors, we don’t support it.
+New student or old student, it gets very hectic trying to keep up with campus events,
+hours of operation, or even what’s for dinner tonight in the cafeteria. Through a
+simple question command, members of the WCU Computer Science discord can ask Catabot
+any of these questions and get an immediate response. No more internet searches, no
+more looking through the notes section of your phone, and thankfully no more asking 
+strangers on the street for help. That’s called social interaction, and as Computer Science majors,
+we don’t support it.
 
-Catabot also serves as an open source group project between Computer Science students, utilizing the agile development lifecycle, as well as SCRUM. This creates not only an efficient and objective oriented work environment, but provides students of WCU the experience of working on a development team before graduation, or even engaging in possible internships. This not only strengthens our Computer Science education, but also makes way to ease WCU students into the workforce.
+Catabot also serves as an open source group project between Computer Science 
+students, utilizing the agile development lifecycle, as well as SCRUM. This
+creates not only an efficient and objective oriented work environment, but
+provides students of WCU the experience of working on a development team before
+graduation, or even engaging in possible internships. This not only strengthens
+our Computer Science education, but also makes way to ease WCU students into the workforce.
 
 ### Built With
 
@@ -109,14 +103,12 @@ npm install npm@latest -g
 
 1. Clone the repo
 ```sh
-git clone https://github.com/github_username/repo.git
+git clone https://github.com/aidankirk617/CataBot.git
 ```
 2. Install NPM packages
 ```sh
 npm install
 ```
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -130,7 +122,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/github_username/repo/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/aidankirk617/CataBot/issues) for a 
+list of proposed features (and known issues).
 
 
 
@@ -140,9 +133,9 @@ See the [open issues](https://github.com/github_username/repo/issues) for a list
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feature/<Issue or feature name`)
+3. Commit your Changes (`git commit -m 'Add some <Issue or feature name>'`)
+4. Push to the Branch (`git push origin feature/<Issue or feature name>`)
 5. Open a Pull Request
 
 
