@@ -76,10 +76,8 @@ our Computer Science education, but also makes way to ease WCU students into the
 
 ### Built With
 
-* []()
-* []()
-* []()
-
+* [Python]()
+* [discord.py 1.4.1](https://pypi.org/project/discord.py/)
 
 
 <!-- GETTING STARTED -->
@@ -87,24 +85,7 @@ our Computer Science education, but also makes way to ease WCU students into the
 
 To get a local copy up and running follow these simple steps.
 
-### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
-
-### Installation
-
-1. Clone the repo
-```sh
-git clone https://github.com/aidankirk617/CataBot.git
-```
-2. Install NPM packages
-```sh
-npm install
-```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -139,14 +120,14 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the ____ License. See `LICENSE` for more information.
+Distributed under the GPL-2.0 License. See `LICENSE` for more information.
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Aidan Kirk - [aidankirk617]()
 
 Project Link: [https://github.com/aidankirk617/CataBot#built-with](https://github.com/aidankirk617/CataBot#built-with)
 
