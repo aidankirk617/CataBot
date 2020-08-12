@@ -32,11 +32,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][https://github.com/aidankirk617/CataBot/graphs/contributors]
-[![Forks][forks-shield]][https://github.com/aidankirk617/CataBot/network/members]
-[![Stargazers][stars-shield]][https://github.com/aidankirk617/CataBot/stargazers]
-[![Issues][issues-shield]][https://github.com/aidankirk617/CataBot/issues]
-[![MIT License][license-shield]][LICENSE.md] 
+![GitHub contributors](https://img.shields.io/github/contributors/aidankirk617/CataBot) ![GitHub issues](https://img.shields.io/github/issues/aidankirk617/CataBot) ![GitHub All Releases](https://img.shields.io/github/downloads/aidankirk617/CataBot/total) ![GitHub](https://img.shields.io/github/license/aidankirk617/CataBot) 
 
 
 <!-- TABLE OF CONTENTS -->
