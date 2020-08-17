@@ -1,13 +1,14 @@
-## Dependencies
+# Dependencies
 import discord
 import random
 from discord.ext import commands
 
-## Client
+# Client
 
-client = commands.Bot(command_prefix = '!')
+client = commands.Bot(command_prefix='!')
 
-## Response-Initializer
+# Response-Initializer
+
 
 @client.event
 async def on_message(message):
@@ -16,7 +17,7 @@ async def on_message(message):
     if '!help' in msg:
         await message.channel.send('p - phone\nm - menu\na - address\nt - tram\ne - email\nh - hours\no - orientation\ni - info\nl - link\nr - resource\ng - map/geography ')
 
-## Info
+# Info
 
     """CRC"""
     if '!icrc' in msg:
@@ -60,7 +61,7 @@ async def on_message(message):
     if '!istaffparking' in msg:
         await message.channel.send('Faculty and staff may register their vehicles to obtain parking permits anytime, and permanent staff and faculty parking permits are non-expiring. An employee is defined as a person who is paid by the University or a private contractor such as Aramark, is listed as an employee in Human Resources or in Academic Affairs, and is not at the University primarily for their own educational advancement.')
 
-## Links
+# Links
 
     if '!ladmissions' in msg:
         await message.channel.send('https://www.wcu.edu/apply/undergraduate-admissions/apply.aspx')
@@ -97,7 +98,7 @@ async def on_message(message):
     if '!lmbti' in msg:
         await message.channel.send('https://www.16personalities.com/free-personality-test')
 
-## Menu
+# Menu
 
     """School Dining"""
     if '!mbrown' in msg:
@@ -155,7 +156,7 @@ async def on_message(message):
     if '!mboots' in msg:
         await message.channel.send('https://www.bootssteakhouse.com/dinner-menu')
 
-## Hours
+# Hours
 
     """Food"""
     if '!hbrown' in msg:
@@ -174,12 +175,12 @@ async def on_message(message):
     if '!hcycleshop' in msg:
         await message.channel.send("Mon: 3pm - 5pm\nThu: 3pm - 5pm")
 
-## Events
+# Events
 
     if '!campusevents' in msg:
         await message.channel.send('https://www.flattenthecurve.com')
 
-## Tram
+# Tram
 
     if '!tallcampusexpress' in msg:
         await message.channel.send('Monday-Friday: 7:30 am - 5:00 pm')
@@ -192,7 +193,7 @@ async def on_message(message):
     if '!thhscommuterexpress' in msg:
         await message.channel.send('Monday-Friday: 5:00pm-11pm')
 
-## Memes
+# Memes
 
     if '!romance' in msg:
         await message.channel.send('https://www.youtube.com/watch?v=DWSUd2FpuRE')
@@ -212,8 +213,12 @@ async def on_message(message):
         await message.channel.send('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdata.whicdn.com%2Fimages%2F319821881%2Foriginal.jpg&f=1&nofb=1')
     if '!gibby' in msg:
         await message.channel.send('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fih1.redbubble.net%2Fimage.665117808.5911%2Fflat%2C750x1000%2C075%2Ct.u1.jpg&f=1&nofb=1')
+    if '!tidus' in msg:
+        await message.channel.send('https://www.youtube.com/watch?v=H47ow4_Cmk0')
+    if '!megatidus':
+        await message.channel.send('https://www.youtube.com/watch?v=GB-tlOWtKy4')
 
-## Trail System
+# Trail System
 
     if '!trailmap' in msg:
         await message.channel.send('https://wcucycling.files.wordpress.com/2013/08/wcutrailmap700.jpg?w=300&h=194&zoom=2')
@@ -222,14 +227,14 @@ async def on_message(message):
     if '!trailguidelines' in msg:
         await message.channel.send("Trail Guidelines:\n– Participate at your own risk\n– Stay on the designated trail\n– No alcohol on the property and you must not be under the influence of alcohol or drugs while on the trail system\n– No Camping\n– No Fires\n– This is WCU property, so all WCU policies apply, such as: No guns or weapons")
 
-## Study Resources
+# Study Resources
     """Music"""
     if '!studymusic' in msg:
         await message.channel.send('https://www.youtube.com/watch?v=5qap5aO4i9A' or
-        'https://www.youtube.com/watch?v=mg7netw1JuM' or
-        'https://www.youtube.com/watch?v=VB6SIKl8Md0' or
-        'https://www.youtube.com/watch?v=jgpJVI3tDbY' or
-        'https://www.youtube.com/watch?v=WPni755-Krg')
+                                   'https://www.youtube.com/watch?v=mg7netw1JuM' or
+                                   'https://www.youtube.com/watch?v=VB6SIKl8Md0' or
+                                   'https://www.youtube.com/watch?v=jgpJVI3tDbY' or
+                                   'https://www.youtube.com/watch?v=WPni755-Krg')
 
     """Online Resources"""
     if '!rcomputerscience' in msg:
@@ -283,7 +288,7 @@ async def on_message(message):
     if '!rstaffdirectory' in msg:
         await message.channel.send('https://www.wcu.edu/discover/contact-wcu/staff-directory.aspx')
 
-## Colleges
+# Colleges
 
     if '!collegeofartsandsciences' in msg:
         await message.channel.send('https://www.wcu.edu/learn/departments-schools-colleges/cas/index.aspx')
@@ -298,7 +303,7 @@ async def on_message(message):
     if '!collegeofhealthandhumansciences' in msg:
         await message.channel.send('https://www.wcu.edu/learn/departments-schools-colleges/HHS/index.aspx')
 
-## Phone Numbers
+# Phone Numbers
 
     if '!pcrc' in msg:
         await message.channel.send("828-227-7069")
@@ -333,7 +338,7 @@ async def on_message(message):
     if '!pcommunityengagement' in msg:
         await message.channel.send("828-227-7495")
 
-## Emails
+# Emails
 
     if '!eundergraduateadmissions' in msg:
         await message.channel.send("admiss@wcu.edu")
@@ -350,7 +355,7 @@ async def on_message(message):
     if '!eonestop' in msg:
         await message.channel.send("osssc@email.wcu.edu")
 
-## Addresses
+# Addresses
 
     if '!achancellorsoffice' in msg:
         await message.channel.send("501 H.F. Robinson\nWestern Carolina University\nCullowhee, NC  28723")
@@ -383,7 +388,7 @@ async def on_message(message):
     if '!acommunityengagement' in msg:
         await message.channel.send("560 H.F. Robinson Administration\nWestern Carolina University\nCullowhee, NC 28723")
 
-## Orientation
+# Orientation
 
     if '!ocampusactivities' in msg:
         await message.channel.send("https://www.youtube.com/watch?v=ipvP58Jl-bg")
@@ -408,7 +413,7 @@ async def on_message(message):
     if '!oorientation' in msg:
         await message.channel.send("https://www.youtube.com/watch?v=epg_mzV8olg&list=PLjrEsnlZROynYkcYIpysgTM89frWza1iS&index=11")
 
-## Maps
+# Maps
 
     if '!gfullcampus' in msg:
         await message.channel.send("https://map.concept3d.com/?id=966#!ce/15111?ct/32505,32525,32528,32534,32552,32554,15111,35399,42553,42554")
@@ -429,11 +434,13 @@ async def on_message(message):
     if '!gfootballstadium' in msg:
         await message.channel.send("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.wcu.edu%2Framsey%2F_resources%2Fimages%2FRamsey_Concourse_Map.jpg&f=1&nofb=1")
 
-## Commands
+# Commands
+
 
 @client.command()
 async def ping(ctx):
     await ctx.send(f'Pong {round(client.latency * 1000)}ms')
+
 
 @client.command(aliases=['8ball', 'test'])
 async def _8ball(ctx, *, question):
@@ -458,12 +465,12 @@ async def _8ball(ctx, *, question):
                  'My sources say no',
                  'Very doubtful',
                  'My reply is no'
-    ]
+                 ]
 
     await ctx.send(f'Question: {question}\nAnswer: {random.choice(responses)}')
 
 
-## Startup
+# Startup
 
 @client.event
 async def on_ready():
