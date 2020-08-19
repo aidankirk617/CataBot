@@ -212,7 +212,16 @@ async def on_message(message):
         await message.channel.send('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdata.whicdn.com%2Fimages%2F319821881%2Foriginal.jpg&f=1&nofb=1')
     if '!gibby' in msg:
         await message.channel.send('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fih1.redbubble.net%2Fimage.665117808.5911%2Fflat%2C750x1000%2C075%2Ct.u1.jpg&f=1&nofb=1')
-
+    if '!pp' in msg:
+        await message.channel.send('https://i.ytimg.com/vi/LBeMOpJLOtM/maxresdefault.jpg')
+    if '!macos' in msg:
+        await message.channel.send('https://i.kym-cdn.com/entries/icons/original/000/012/175/dissapointed.jpg')
+    if '!lecture' in msg:
+        await message.channel.send('https://i.kinja-img.com/gawker-media/image/upload/s--j-q4hShU--/c_scale,fl_progressive,q_80,w_800/17mmbm6td2sgdjpg.jpg')
+    if '!intimidate' in msg:
+        await message.channel.send('https://www.youtube.com/watch?v=NWD7iqtOJSE')
+    if '!bonk' in msg:
+        await message.channel.send('https://www.youtube.com/watch?v=vpSCPxeTbvk')
 ## Trail System
 
     if '!trailmap' in msg:
